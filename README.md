@@ -7,3 +7,6 @@ Implemented as a user-friendly Streamlit web application, the system offers an i
 Furthermore, the system eliminates the need to manually browse through countless products across various websites and apps. Instead, users can simply upload an image of interest and receive visually similar recommendations, each linked directly to the source website where the product can be found or purchased. This integration streamlines the shopping experience, saving time and improving relevance.
 
 Although the similarity matching technique is implicit, it effectively enables content-based recommendations based on image features. This project demonstrates how deep learning and computer vision can be applied to youth-oriented fashion platforms, delivering intelligent, image-based personalization that reflects the user’s sense of style.
+
+#[app.py](https://drive.google.com/file/d/1V_86C1ezAGK-U6biMWPObJRGahY1TQUC/view?usp=drivesdk)
+#[Report](https://drive.google.com/file/d/1VVhL9GkfFfl93xxyATHhz7aXK0dxHSlE/view?usp=drivesdk)
