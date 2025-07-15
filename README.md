@@ -11,3 +11,9 @@ Although the similarity matching technique is implicit, it effectively enables c
 📌[app.py](https://drive.google.com/file/d/1V_86C1ezAGK-U6biMWPObJRGahY1TQUC/view?usp=drivesdk)
 
 📌[Report](https://drive.google.com/file/d/1VMUJI-FXZFxXyQS6D9ftmS6FqVpoyvUx/view?usp=drivesdk)
+
+## Collaborators
+
+- [Suchismita Ghosh](https://github.com/suchi974)
+- [Swastika Biswas](https://github.com/swastika-12-git)
+- [Ankita Dubey](https://github.com/teammate3)
