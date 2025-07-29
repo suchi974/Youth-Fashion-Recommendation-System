@@ -1,19 +1,54 @@
-# Youth-Fashion-Recommendation-System
+# 👗 Youth-Fashion-Recommendation-System
 
-In today’s fast-evolving digital fashion landscape, young consumers increasingly expect personalized and visually-driven experiences when exploring new clothing and accessories. To meet this demand, we present a Youth Fashion Recommendation System that leverages deep learning and computer vision to deliver real-time, image-based product suggestions. The system is designed to recommend fashion items—including shoes, accessories, and clothing for both men and women—based on visual similarity to an uploaded image.
+In today’s fast-evolving digital fashion landscape, young consumers increasingly expect personalized and visually-driven experiences when exploring new clothing and accessories. This project presents a **Youth Fashion Recommendation System** that leverages deep learning and computer vision to deliver **real-time, image-based fashion product suggestions**.
 
-Implemented as a user-friendly Streamlit web application, the system offers an intuitive interface where users can upload an image of a fashion product. Upon upload, a pre-trained ResNet (specifically, ResNet50) model is used to extract deep visual features from the image. These features are passed through a GlobalMaxPool2D layer to generate high-dimensional embeddings, which are then normalized and compared against a curated dataset of fashion items. This dataset, customized from publicly available sources, has its own precomputed feature embeddings. The system uses the Euclidean distance metric in conjunction with the Nearest Neighbors algorithm to identify and display the top five visually similar fashion items almost instantly.
+---
 
-Furthermore, the system eliminates the need to manually browse through countless products across various websites and apps. Instead, users can simply upload an image of interest and receive visually similar recommendations, each linked directly to the source website where the product can be found or purchased. This integration streamlines the shopping experience, saving time and improving relevance.
+## 🧠 Project Overview
 
-Although the similarity matching technique is implicit, it effectively enables content-based recommendations based on image features. This project demonstrates how deep learning and computer vision can be applied to youth-oriented fashion platforms, delivering intelligent, image-based personalization that reflects the user’s sense of style.
+Implemented as a user-friendly **Streamlit web application**, the system allows users to upload an image of a fashion product—like shoes, clothing, or accessories. A pre-trained **ResNet50** model extracts deep visual features, followed by a **GlobalMaxPool2D** layer to produce normalized, high-dimensional embeddings.
 
-📌[app.py](https://drive.google.com/file/d/1V_86C1ezAGK-U6biMWPObJRGahY1TQUC/view?usp=drivesdk)
+These embeddings are compared using the **Euclidean distance** and the **Nearest Neighbors** algorithm against a curated dataset of fashion items with precomputed embeddings. The top 5 visually similar items are then displayed—each linked to its original source website for easy navigation and purchase.
 
-📌[Report](https://drive.google.com/file/d/1VMUJI-FXZFxXyQS6D9ftmS6FqVpoyvUx/view?usp=drivesdk)
+This solution streamlines fashion discovery, saving users time while offering personalized recommendations tailored to their style.
 
-## Collaborators
+---
 
-- [Suchismita Ghosh](https://github.com/suchi974)
-- [Swastika Biswas](https://github.com/swastika-12-git)
+## 🧰 Technologies Used
+
+- **Python**
+- **Streamlit**
+- **TensorFlow / Keras (ResNet50)**
+- **scikit-learn**
+- **Pillow**
+- **NumPy**
+
+---
+
+## 🚀 How It Works
+
+1. 📤 Upload an image of a fashion product
+2. 🧠 Extract visual features using ResNet50
+3. 🔍 Compare features with dataset using Euclidean distance
+4. 🖼️ Display top 5 visually similar fashion items with purchase links
+
+---
+
+## 🔗 Key Files
+
+- 📄 [app.py](https://drive.google.com/file/d/1V_86C1ezAGK-U6biMWPObJRGahY1TQUC/view?usp=drivesdk) – Streamlit Web App Code  
+- 📘 [Report](https://drive.google.com/file/d/1VMUJI-FXZFxXyQS6D9ftmS6FqVpoyvUx/view?usp=drivesdk) – Detailed Project Report
+
+---
+
+## 🤝 Collaborators
+
+- [Suchismita Ghosh](https://github.com/suchi974)  
+- [Swastika Biswas](https://github.com/swastika-12-git)  
 - [Ankita Dubey](https://github.com/teammate3)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
